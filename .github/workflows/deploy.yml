@@ -9,7 +9,7 @@ env:
   MONGODB_DB_NAME: gha-demo
 jobs:
   test:
-    environment: test:
+    environment: test
 
     env:
       MONGODB_CLUSTER_ADDRESS: environmentvariable.eibhuhl.mongodb.net
@@ -17,7 +17,7 @@ jobs:
       MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
       PORT: 8080
       
-
+#OV9V3WWv7gXgjmZU
 
     environment: testing
     runs-on: ubuntu-latest
